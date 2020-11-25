@@ -1,0 +1,39 @@
+.heading{
+    font-size: 25px;
+    color: red;
+    font-family: fantasy;
+    width: 80%;
+    letter-spacing: 5px;
+}
+.nameofobjects{
+    color: firebrick;
+    font-family: cursive;
+    font-size: 18px; 
+}
+body{
+    background-image: linear-gradient(lightgreen, lightblue);
+}
+#camera{
+    border-width: 5px;
+    border-color:royalblue;
+    border-style:groove;
+    border-radius: 100%;
+    -webkit-mask-image:-webkit-radial-gradient(circle, white 100%, black 100%);
+    width: 300px;
+    height: 300px;
+}
+#selfiediv{
+    border: 5px firebrick dashed;
+    width: 300px;
+    height: 300px;
+}
+#objectname,#accuracy{
+  font-size: 18px;
+  color: royalblue;
+  font-family: fantasy;
+  font-weight: bold;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
